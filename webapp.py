@@ -83,6 +83,7 @@ plot_btn = dmc.Button(
 )
 app = Dash(__name__, external_stylesheets=external_stylesheets)
 
+server = app.server
 
 app.layout = html.Div(
     children=[
@@ -186,4 +187,4 @@ def draw_outlier_graph(city, date_, price_change, n_clicks):
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True, port=7088, dev_tools_hot_reload=True)
+    app.run_server(debug=False, port=7088)
