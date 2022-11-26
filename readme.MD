@@ -1,3 +1,8 @@
+
+## DESCRIPTION 
+
+
+
 ## WORKFLOW 
 
 
@@ -6,11 +11,15 @@
 
 
 
+## DASHBOARD 
+[LINK](https://price-anomaly-dashboard.up.railway.app/)
 
-[DASHBOARD](https://price-anomaly-dashboard.up.railway.app/)
+Library : 
+1. Dash Plotly
 
 
+## API
+[LINK](https://cabaimerahanomalyapi-production.up.railway.app/docs)
 
-
-[API](https://cabaimerahanomalyapi-production.up.railway.app/docs)
-
+Library 
+1. FastAPI
