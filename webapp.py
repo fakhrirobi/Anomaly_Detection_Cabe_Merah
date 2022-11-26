@@ -125,7 +125,6 @@ app.layout = html.Div(
 )
 def draw_outlier_graph(city, date_, price_change, n_clicks):
     if n_clicks:
-
         ENDPOINT_EXACT_DATE = f"https://cabaimerahanomalyapi-production.up.railway.app/nowcasting_price/{city}/{date_}/{price_change}"
         exact_date_df = pd.read_json(requests.get(ENDPOINT_EXACT_DATE).json())
         ENDPOINT_HISTORIC = f"https://cabaimerahanomalyapi-production.up.railway.app/past_outlier_data/{city}"
