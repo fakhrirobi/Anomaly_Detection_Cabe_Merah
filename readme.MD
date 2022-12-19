@@ -20,6 +20,7 @@ Library :
 
 ## API
 [LINK](https://cabaimerahanomalyapi-production.up.railway.app/docs)
+![Repos](https://github.com/fakhrirobi/cabai_merah_anomaly_api)
 
 Library 
 1. FastAPI
